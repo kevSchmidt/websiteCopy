@@ -1,1 +1,12 @@
+.logoStyle {
+  font-weight: 100;
+  font-size: 0.7rem;
+  letter-spacing: -1px;
+  vertical-align: 8px;
+  color: rgba(0, 0, 0, 0.781);
+}
 
+::placeholder {
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}
