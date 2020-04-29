@@ -1,13 +1,12 @@
 .searchBtn {
   width: 3.5rem;
-  height: 1.6rem;
+  height: 1.75rem;
   font-size: 0.8rem;
+  background-color: #eee;
   outline: none;
   border: none;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include u-flex-center;
 }
 
 .searchBar {

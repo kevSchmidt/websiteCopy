@@ -1,1 +1,17 @@
+// Display flex
+@mixin u-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+@mixin u-flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin u-flex-align {
+  display: flex;
+  align-items: center;
+}
