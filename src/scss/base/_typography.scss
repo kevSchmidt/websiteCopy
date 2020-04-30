@@ -13,8 +13,21 @@
 
 .menu-heading {
   font-family: "Roboto Condensed", sans-serif;
-  color: grey;
+  color: darkgrey;
   font-size: 1rem;
   font-weight: 500;
   padding: 1rem 0 0 1.5rem;
+}
+
+.cover-heading {
+  margin: 0 1rem;
+  font-weight: 400;
+  width: 65rem;
+}
+
+.sub-header {
+  width: 65rem;
+  margin: 0 1rem;
+  font-size: 0.9rem;
+  color: darkgrey;
 }
