@@ -7,3 +7,33 @@
 .mainAvatar {
   width: 6.1rem;
 }
+
+.video-container {
+  display: flex;
+
+  &__block {
+    margin: 0.2rem;
+    width: 13rem;
+    height: 15rem;
+
+    &--1 {
+      background-color: pink;
+    }
+
+    &--2 {
+      background-color: lightblue;
+    }
+
+    &--3 {
+      background-color: lightsalmon;
+    }
+
+    &--4 {
+      background-color: lightgreen;
+    }
+
+    &--5 {
+      background-color: yellowgreen;
+    }
+  }
+}
