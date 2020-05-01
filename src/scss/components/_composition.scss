@@ -10,30 +10,16 @@
 
 .video-container {
   display: flex;
+  justify-content: space-between;
 
   &__block {
-    margin: 0.2rem;
+    padding-top: 1rem;
     width: 13rem;
     height: 15rem;
-
-    &--1 {
-      background-color: pink;
-    }
-
-    &--2 {
-      background-color: lightblue;
-    }
-
-    &--3 {
-      background-color: lightsalmon;
-    }
-
-    &--4 {
-      background-color: lightgreen;
-    }
-
-    &--5 {
-      background-color: yellowgreen;
-    }
   }
+}
+
+.video-img {
+  width: 100%;
+  cursor: pointer;
 }

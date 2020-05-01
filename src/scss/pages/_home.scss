@@ -135,12 +135,18 @@
       padding: 0 1.8rem 0.5rem;
       font-size: 1rem;
       letter-spacing: -1px;
+      cursor: pointer;
       font-weight: 600;
       color: #777777;
+      transition: all 0.2s;
 
       &:nth-child(1) {
         color: #1a1a1a;
         border-bottom: solid 3px #606060;
+      }
+
+      &:hover {
+        color: #1a1a1a;
       }
     }
 
@@ -155,20 +161,21 @@
   background-color: #f1f1f1;
 
   &__main-content {
-    width: 67rem;
+    width: 68rem;
     margin-left: 10rem;
 
     &--box1 {
-      border: solid green 1px;
+      padding-top: 0.5rem;
+      border-bottom: 1px solid #7777774f;
     }
 
     &--box2 {
-      border: 1px solid green;
+      padding-top: 0.5rem;
     }
   }
 
   &__aside {
     width: 12vw;
-    border: 1px solid green;
+    padding-left: 2rem;
   }
 }

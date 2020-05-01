@@ -31,3 +31,34 @@
   font-size: 0.9rem;
   color: #777777;
 }
+
+.video-heading {
+  padding: 0.8rem 0 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+
+  &-span {
+    font-size: 0.9rem;
+    color: #777777;
+  }
+}
+
+.description-heading {
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.description {
+  margin-top: 5px;
+  color: #777777;
+  font-size: 0.8rem;
+  cursor: pointer;
+
+  &-sub {
+    margin-top: 1px;
+    color: #777777;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+}
