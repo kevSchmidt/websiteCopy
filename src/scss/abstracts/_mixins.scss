@@ -15,3 +15,15 @@
   display: flex;
   align-items: center;
 }
+
+@mixin u-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+// Button
+@mixin u-virgin {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

@@ -1,7 +1,7 @@
 .avatarMenu {
-  width: 1.8rem;
   margin-right: 1rem;
   margin-left: -0.3rem;
+  width: 1.8rem;
 }
 
 .mainAvatar {
@@ -9,8 +9,7 @@
 }
 
 .video-container {
-  display: flex;
-  justify-content: space-between;
+  @include u-flex-between;
 
   &__block {
     padding-top: 1rem;
@@ -22,4 +21,8 @@
 .video-img {
   width: 100%;
   cursor: pointer;
+}
+
+.aside-img {
+  width: 2rem;
 }

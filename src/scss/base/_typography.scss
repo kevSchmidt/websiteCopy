@@ -1,64 +1,78 @@
 .logoStyle {
-  font-weight: 100;
-  font-size: 0.6rem;
+  font-size: $xxs;
+  font-weight: $extra-light;
   letter-spacing: -1px;
   vertical-align: 8px;
-  color: rgba(0, 0, 0, 0.781);
+  color: $color-grey;
 }
 
 ::placeholder {
-  font-size: 1rem;
   padding-left: 0.5rem;
+  font-size: $m;
 }
 
 .menu-heading {
-  font-family: "Roboto Condensed", sans-serif;
-  color: #777777;
-  font-size: 1rem;
-  font-weight: 500;
   padding: 1rem 0 0 1.5rem;
+  font-size: $m;
+  font-weight: $medium;
+  font-family: "Roboto Condensed", sans-serif;
+  color: $color-grey;
 }
 
 .cover-heading {
   margin: 0 1rem;
-  font-weight: 400;
   width: 65rem;
+  font-weight: $light;
 }
 
 .sub-header {
-  width: 65rem;
   margin: 0 1rem;
-  font-size: 0.9rem;
-  color: #777777;
+  width: 65rem;
+  font-size: $s;
+  color: $color-grey;
 }
 
 .video-heading {
   padding: 0.8rem 0 0.5rem 0;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: $m;
+  font-weight: $bold;
   cursor: pointer;
 
   &-span {
-    font-size: 0.9rem;
-    color: #777777;
+    font-size: $s;
+    color: $color-grey;
   }
 }
 
 .description-heading {
-  font-size: 0.9rem;
+  font-size: $s;
   cursor: pointer;
 }
 
 .description {
   margin-top: 5px;
-  color: #777777;
-  font-size: 0.8rem;
+  font-size: $xs;
   cursor: pointer;
+  color: $color-grey;
 
   &-sub {
     margin-top: 1px;
-    color: #777777;
-    font-size: 0.8rem;
+    font-size: $xs;
     cursor: pointer;
+    color: $color-grey;
   }
+}
+
+.aside-heading {
+  margin-bottom: 1.3rem;
+  font-size: $m;
+  font-weight: $bold;
+  font-family: "Roboto Condensed", sans-serif;
+  color: $color-grey;
+}
+
+.aside-chanel {
+  margin-left: 0.5rem;
+  font-size: $xs;
+  font-weight: $bold;
 }

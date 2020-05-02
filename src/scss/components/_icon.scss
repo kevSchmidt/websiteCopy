@@ -1,17 +1,17 @@
 i {
-  color: rgba(0, 0, 0, 0.719);
+  color: $color-grey;
+  font-size: $l;
   cursor: pointer;
-  font-size: 1.1rem;
 }
 
 .burger {
-  font-size: 1.2rem;
+  font-size: $xl;
 }
 
 .youtubeLogo {
-  font-size: 1.4rem;
+  font-size: $xxl;
   vertical-align: -2px;
-  color: red;
+  color: $color-red-secondary;
 }
 
 .menuIcons {
@@ -19,12 +19,12 @@ i {
 }
 
 .searchIcon-firstcover {
-  color: #777777;
   cursor: pointer;
+  color: $color-grey;
 }
 
 .playIcon {
   margin: 0 0.8rem 0 2rem;
-  font-size: 0.9rem;
-  color: #777777;
+  font-size: $s;
+  color: $color-grey;
 }
