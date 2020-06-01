@@ -1,4 +1,4 @@
-# Copy of Youtube
+# Copy of a website
 
-## Model
+## Model: YouTube
 ![](./model.png)
