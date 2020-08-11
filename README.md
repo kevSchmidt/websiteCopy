@@ -2,14 +2,17 @@
 - Link of the project: https://kevschmidt.github.io/youtube-copy/
 - Clone the repository: ``` git clone git@github.com:kevSchmidt/youtube-copy.git ```
 
-### Exercise from DCI.
-This project is for learning purpose and is not functional (only layout).
-
 ### Tools:
 <h1>
 <img src="https://imgur.com/T1TApg1.png" alt="React" width="20%">
 <img src="https://imgur.com/plyrZV7.png" alt="React" width="10%">
 </h1>
+
+### Exercise from DCI.
+This project is for learning purpose and is not functional (only layout).
+
+## Model of the website: YouTube
+![](./model.png)
 
 ### Structure:
 ```
@@ -49,6 +52,3 @@ Project
       |
       └─── index.html
 ```
-
-## Model of the website: YouTube
-![](./model.png)
