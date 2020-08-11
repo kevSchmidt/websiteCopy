@@ -1,5 +1,6 @@
 # Copy of a website using SASS
 Link of the project: https://kevschmidt.github.io/youtube-copy/
+Clone the repository: git@github.com:kevSchmidt/youtube-copy.git
 
 ### Exercise from DCI.
 This project is for learning purpose and is not functional (only layout).
