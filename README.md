@@ -1,8 +1,8 @@
-# Copy of a website
+# Copy of a website using SASS
 Link of the project: https://kevschmidt.github.io/youtube-copy/
 
-### Exercise from DCI
-This project is for learning purpose.
+### Exercise from DCI.
+This project is for learning purpose and is not functional (only layout).
 
 ### Tools:
 <h1>
@@ -49,5 +49,5 @@ Project
       └─── index.html
 ```
 
-## Model: YouTube
+## Model of the website: YouTube
 ![](./model.png)
